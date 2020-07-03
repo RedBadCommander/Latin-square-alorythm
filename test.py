@@ -50,6 +50,23 @@ r47 = random.randint(1, 7)
 r48 = random.randint(1, 7)
 r49 = random.randint(1, 7)
 
+
+text_file = open("square.square", "a+")
+n = text_file.write(str(r1) + str(r2) + str(r3) + str(r4) + str(r5) + str(r6) + str(r7))
+n = text_file.write('|')
+n = text_file.write(str(r8) + str(r9) + str(r10) + str(r11) + str(r12) + str(r13) + str(r14))
+n = text_file.write('|')
+n = text_file.write(str(r15) + str(r16) + str(r17) + str(r18) + str(r19) + str(r20) + str(r21))
+n = text_file.write('|')
+n = text_file.write(str(r22) + str(r23) + str(r24) + str(r25) + str(r26) + str(r27) + str(r28))
+n = text_file.write('|')
+n = text_file.write(str(r29) + str(r30) + str(r31) + str(r32) + str(r33) + str(r34) + str(r35))
+n = text_file.write('|')
+n = text_file.write(str(r36) + str(r37) + str(r38) + str(r39) + str(r40) + str(r41) + str(r42))
+n = text_file.write('|')
+n = text_file.write(str(r43) + str(r44) + str(r45) + str(r46) + str(r47) + str(r48) + str(r49))
+text_file.close()
+
 print(str(r1) + str(r2) + str(r3) + str(r4) + str(r5) + str(r6) + str(r7)),print(str(r8) + str(r9) + str(r10) + str(r11) + str(r12) + str(r13) + str(r14)),print(str(r15) + str(r16) + str(r17) + str(r18) + str(r19) + str(r20) + str(r21)),print(str(r22) + str(r23) + str(r24) + str(r25) + str(r26) + str(r27) + str(r28)),print(str(r29) + str(r30) + str(r31) + str(r32) + str(r33) + str(r34) + str(r35)),print(str(r36) + str(r37) + str(r38) + str(r39) + str(r40) + str(r41) + str(r42)),print(str(r43) + str(r44) + str(r45) + str(r46) + str(r47) + str(r48) + str(r49)),
 
 # your_data = {"test"}
